@@ -5,3 +5,4 @@ pillow
 pybase64
 regex
 Python-IO
+tensorflow

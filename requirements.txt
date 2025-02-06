@@ -4,4 +4,4 @@ numpy
 pillow
 pybase64
 regex
-io
+Python-IO

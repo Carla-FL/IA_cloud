@@ -3,5 +3,5 @@ requests
 numpy
 pillow
 pybase64
-re
+regex
 io

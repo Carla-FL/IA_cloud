@@ -1,5 +1,5 @@
 flask
-request
+requests
 numpy
 PIL
 base64

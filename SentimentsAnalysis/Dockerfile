@@ -9,4 +9,4 @@ COPY . .
 RUN pip install -r requirements.txt
 # expose le port
 EXPOSE 80
-CMD [ "python3", "main.py" ]
+CMD [ "python3", "app.py" ]

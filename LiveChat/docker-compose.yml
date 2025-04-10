@@ -1,0 +1,17 @@
+services:
+
+  client-websocket:
+    image: nginx
+    expose:
+      - "80"
+    volumes:
+      - ./:/usr/share/nginx/html
+    ports:
+      - 80:80
+
+  server-websocket:
+    build: .
+    command: python server_lite.py
+    ports:
+      - "7890:7890"
+    restart: always
